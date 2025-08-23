@@ -1,8 +1,5 @@
+## ✅ E-Library Book Management 
 
----
-
-## ✅ E-Library Book Management README  
-```markdown
 # E-Library Book Management
 
 ## 📌 Project Concept
