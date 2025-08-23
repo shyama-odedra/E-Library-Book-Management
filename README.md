@@ -1,5 +1,3 @@
-## ✅ E-Library Book Management 
-
 # E-Library Book Management
 
 ## 📌 Project Concept
