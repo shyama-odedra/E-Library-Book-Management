@@ -1,5 +1,7 @@
 # E-Library Book Management
  
+**🔗 Live site: [elibrarybookmanagement.netlify.app](https://elibrarybookmanagement.netlify.app/)**
+ 
 ## 📌 Project concept
  
 A circulation system for a small library: borrow and return books, roll back the last action with an undo stack, and search the catalog. The core data structures are a **singly linked list** (catalog) and a **stack** (undo history).
@@ -41,26 +43,20 @@ Book returned: Python Guide
 Found: AI Concepts by Russell (Available)
 ```
  
-## 🌐 Run the web version locally
+## 🌐 The web version
  
-Just open `index.html` in a browser — it's a single self-contained file, no build step, no dependencies.
+**Live: https://elibrarybookmanagement.netlify.app/**
  
-## 🚢 Deploy it (free options)
+It's a single self-contained `index.html` — no build step, no dependencies — so it also runs fine by just opening the file directly in a browser.
  
-**GitHub Pages** — your code is already on GitHub, so this is two clicks:
+## 🚢 Redeploying / other hosting options
+ 
+**Netlify** (currently used)
+- Push changes to this repo, then in the Netlify dashboard: **Site → Deploys → Trigger deploy**, or connect the repo directly under **Site settings → Build & deploy** so it redeploys automatically on every push.
+**GitHub Pages** (alternative)
 1. Go to `github.com/shyama-odedra/E-Library-Book-Management` → **Settings → Pages**.
 2. Under **Source**, choose **Deploy from a branch** → Branch: `main`, folder: `/ (root)` → **Save**.
-3. Wait a minute or two, then your site is live at:
-   **https://shyama-odedra.github.io/E-Library-Book-Management/**
-**Netlify**
-1. [netlify.com](https://netlify.com) → **Add new site → Deploy manually**.
-2. Drag the folder containing `index.html` into the drop zone.
-3. Netlify gives you a live URL instantly; you can rename it or attach a custom domain for free.
-**Vercel**
-1. [vercel.com](https://vercel.com) → **Add New → Project → Import** your GitHub repo (or drag-and-drop like Netlify).
-2. No build settings needed for a static HTML file — deploy as-is.
-Any of the three works well for a resume link — GitHub Pages is the easiest to set up straight from your existing repo.
- 
+3. Live at `https://shyama-odedra.github.io/E-Library-Book-Management/`.
 ## 🧠 What to say about it on your resume
  
 Something like:
@@ -68,6 +64,4 @@ Something like:
 > Built a library circulation system in C++ using a custom linked-list catalog and a stack-based undo mechanism; ported the logic to a deployed, interactive web app (HTML/CSS/JS).
  
 That one line shows both DSA fundamentals and the ability to take a CLI tool to something a recruiter can actually click into.
- 
-
-That one line shows both DSA fundamentals and the ability to take a CLI tool to something a recruiter can actually click into.
+  and the ability to take a CLI tool to something a recruiter can actually click into.
